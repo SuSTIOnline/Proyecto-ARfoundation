@@ -1,0 +1,4 @@
+#Fri Oct 06 12:43:35 ART 2023
+base.0=C\:\\Users\\Usuario\\Desktop\\zoren_UnityProyects\\Proyecto-ARfoundation\\AR-Libro\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
