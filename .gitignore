@@ -17,3 +17,4 @@ Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.jso
 Temp/StagingArea/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
 Library/Bee/artifacts
 Temp/*
+Logs/*
