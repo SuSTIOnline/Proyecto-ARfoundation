@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARPlacement
+    - TrackMultiple
     LeanTouch.dll:
     - Lean.Touch.LeanPinchScale
     - Lean.Touch.LeanTouch
@@ -27,8 +28,11 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
     Unity.XR.ARKit.Editor.dll:
     - UnityEditor.XR.ARKit.ARKitSettings
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -83,6 +87,11 @@ ScriptsOnlyBuild:
   serializedClasses:
     LeanTouch:
     - Lean.Touch.LeanFingerFilter
+    Unity.XR.ARSubsystems:
+    - UnityEngine.XR.ARSubsystems.SerializableDictionary`2/KeyValuePair[System.String,System.Byte[]]
+    - UnityEngine.XR.ARSubsystems.SerializableDictionary`2[System.String,System.Byte[]]
+    - UnityEngine.XR.ARSubsystems.SerializableGuid
+    - UnityEngine.XR.ARSubsystems.XRReferenceImage
     Unity.XR.OpenXR.Features.MetaQuestSupport:
     - UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature/TargetDevice
   methodsToPreserve: []
@@ -106,8 +115,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -129,6 +136,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20238}
     - Class: 114
+      Script: {instanceID: 20632}
+    - Class: 114
+      Script: {instanceID: 21096}
+    - Class: 114
       Script: {instanceID: 22558}
     - Class: 114
       Script: {instanceID: 22736}
@@ -138,6 +149,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 24982}
     - Class: 114
       Script: {instanceID: 25786}
+    - Class: 114
+      Script: {instanceID: 27030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1903,7 +1916,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b37e9d7794a63fedfa155d10109e9053
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TrackMultiple
   platform: 13
   scenePathNames:
   - Assets/Scenes/BlankAR.unity
-  playerPath: C:/Users/Usuario/Desktop/zoren_UnityProyects/Proyecto-ARfoundation/BuildsAR/karaiTest.apk
+  playerPath: C:/Users/Lenovo/Desktop/Dev/android/SUSTIAR2.apk
