@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Usuario\\Desktop\\zoren_UnityProyects\\Proyecto-ARfoundation\\AR-Libro\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Lenovo\\Desktop\\Dev\\Susti\\AR\\Proyecto-ARfoundation\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\ece6358c3c3b544f3d6f3cc51ffa918c\\transformed\\arcore_client\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\Desktop\\Dev\\Susti\\AR\\Proyecto-ARfoundation\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "161,208,259,381,503",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "207,258,380,502,586"
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,100",
+                        "endColumns": "43,65",
+                        "endOffsets": "96,163"
                     },
                     "to": {
-                        "startLines": "9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "424,475,530,656,782",
-                        "endColumns": "50,54,125,125,87",
-                        "endOffsets": "470,525,651,777,865"
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "870,916",
+                        "endColumns": "45,67",
+                        "endOffsets": "911,979"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Usuario\\Desktop\\zoren_UnityProyects\\Proyecto-ARfoundation\\AR-Libro\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\Desktop\\Dev\\Susti\\AR\\Proyecto-ARfoundation\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -40,20 +40,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Usuario\\Desktop\\zoren_UnityProyects\\Proyecto-ARfoundation\\AR-Libro\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-3\\ece6358c3c3b544f3d6f3cc51ffa918c\\transformed\\arcore_client\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,100",
-                        "endColumns": "43,65",
-                        "endOffsets": "96,163"
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
                     },
                     "to": {
-                        "startLines": "14,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "870,916",
-                        "endColumns": "45,67",
-                        "endOffsets": "911,979"
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "424,475,530,656,782",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "470,525,651,777,865"
                     }
                 }
             ]

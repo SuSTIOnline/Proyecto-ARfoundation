@@ -661,17 +661,13 @@
         "dependencies": [
           {
             "name": "Collider",
-            "scenes": [
-              "Assets/Scenes/BlankAR.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "MeshCollider",
-            "scenes": [
-              "Assets/Scenes/BlankAR.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
